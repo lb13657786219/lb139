@@ -44,4 +44,7 @@ public class User {
 
     public User() {
     }
+    public void say(){
+        System.out.println("I an Iron man");
+    }
 }
