@@ -3,6 +3,15 @@ public class User {
     private Integer age;
     private String sex;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
